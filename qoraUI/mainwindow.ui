@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="tabEncrypt">
      <attribute name="title">
@@ -379,6 +379,42 @@
      <attribute name="title">
       <string>设置</string>
      </attribute>
+     <widget class="QGroupBox" name="groupBoxAlgorithms">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>591</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>密钥算法</string>
+      </property>
+      <widget class="QLabel" name="labelAlgorithms">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>60</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>密钥算法选择：</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBoxAlorithms">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>60</y>
+         <width>451</width>
+         <height>24</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
     </widget>
     <widget class="QWidget" name="tabAbort">
      <attribute name="title">
